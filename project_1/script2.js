@@ -38,3 +38,19 @@ function getMathResult(x, y) {
   }
 }
 console.log(getMathResult(3, "1"));
+
+let fruit = "Some fruit";
+console.log(fruit.indexOf("z"));
+console.log(fruit);
+
+const logg = "Hello world";
+console.log(logg.slice(1, 5));
+console.log(logg);
+
+let num = 12.2;
+console.log(Math.round(num));
+console.log(num);
+
+let x = "12.2px";
+console.log(parseInt(x));
+console.log(x);
