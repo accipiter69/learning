@@ -50,8 +50,8 @@ function detectPersonalLevel() {
 }
 detectPersonalLevel();
 
-function showMyDB() {
-  if (personalMovieDB.privat === false) {
+function showMyDB(hidden) {
+  if (!hidden) {
     console.log(personalMovieDB);
   }
 }
@@ -65,5 +65,5 @@ function writeYourGenres() {
   }
 }
 writeYourGenres();
-showMyDB();
+showMyDB(personalMovieDB.privat);
 //console.log(personalMovieDB);
