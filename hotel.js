@@ -1,1 +1,1 @@
-console.log("hello t1")
+window.location="/404"
