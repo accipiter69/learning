@@ -1,1 +1,1 @@
-console.log("test")
+  window.location.href = "/404";
